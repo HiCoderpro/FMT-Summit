@@ -11,7 +11,7 @@ if (usuarioacess == u_acess){
         window.location = 'administador.html';
         //Fazemos o redirecionamento da pagina para o inicio apos alguns segundos
         setTimeout(function() {
-            window.location.replace("http://127.0.0.1:5500/exercicios.html");
+            window.location.replace("exercicios.html");
           }, 10);
     
 
