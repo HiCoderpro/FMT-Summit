@@ -15,4 +15,11 @@ img {
     margin: auto;
     display: block;
     align-items: center;
-  }
+}
+#switch-demo{
+    color: blue;
+}
+.redirectimg{
+    width:  599px;
+    height: 264px;
+}
