@@ -1,14 +1,11 @@
 //Crie um programa que receba um número e verifique se ele é ímpar ou par.
 
 let exerciciosafazer = Number(prompt('Digite qual exercicio que Fazer (1)Impar ou par (2)Calculo Nota (3)'))
-let verific_numbers = document.getElementsByClassName('verify_nubs').innerHTML
-console.log(verific_numbers)
-
 //Impar ou par Exercicio calc
-verify_nubs
+
 if (exerciciosafazer === 1){
     let numero = Number(prompt('Digite um Numero'))
-
+    //podemos incrementar para que ele pegue a veriavel diretamente do input do html
 
     if (numero % 2 == 0){
         console.log(numero, 'PAR')
